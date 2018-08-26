@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Guvi Scapic</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    * {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}*/
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+    transition: all .2s;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+.circulrr-image {
+  border-radius:  50%;
+}
+  </style>
+</head>
+<body>
+        
+        
+<!--
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Online Store</h1>      
+    <p>Mission, Vission & Values</p>
+  </div>
+</div>
+-->
+<img src="https://goo.gl/szrgCW" alt="Flowers" width="250" height="80">
+<table align="center">
+        <col width="300">
+        <col width="300">
+        <tr><tr>
+<div class="row">
+    <th>
+        <div class="column">
+          <img src="https://goo.gl/aWPSdN" alt="Snow" style="width:150px; height:80px;" class="circulrr-image" />
+        </div>
+    </th>
+    <th>
+        <div class="column">
+          <img src="https://goo.gl/KDQ26U" alt="Forest" style="width:150px;height:80px;" class="circulrr-image" />
+        </div>
+    </th>
+    <th>
+        <div class="column">
+          <img src="https://goo.gl/uANA2i" alt="Mountains" style="width:150px;height:80px;" class="circulrr-image" />
+        </div>
+      </div> 
+    </th>
+</tr>
+<tr>
+      <div class="row">
+            <div class="column">
+            <th>
+              <h4>Learn a skill</h4>
+            </div></th>
+            <td width="40%" align="center">
+            <div class="column">
+              <h4>Build a Profile</h4>
+            </div></td>
+            <th align="center">
+            <div class="column">
+              <h4>Get Hired</h4>
+            </div></th>
+          </div>
+        </tr>
+        </table>
+
+<h2 style="text-align:center"><u>Courses</u></h2>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Introduction to Machine Learning</div>
+        <div class="panel-body"><img src="https://goo.gl/3PGs1o" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Interested in the field of Machine Learning? Then this course is for you!
+            This course has been designed by two professional Data Scientists so that we can share our knowledge and help you learn complex theory, algorithms and coding libraries in a simple way.
+            We will walk you step-by-step into the World of Machine Learning. With every tutorial you will develop new skills and improve your understanding of this challenging yet lucrative sub-field of Data Science.
+        <h3>Rs:1500/-</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">Introduction to Machine Learning</div>
+        <div class="panel-body"><img src="https://goo.gl/3PGs1o" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Interested in the field of Machine Learning? Then this course is for you!
+                This course has been designed by two professional Data Scientists so that we can share our knowledge and help you learn complex theory, algorithms and coding libraries in a simple way.
+                We will walk you step-by-step into the World of Machine Learning. With every tutorial you will develop new skills and improve your understanding of this challenging yet lucrative sub-field of Data Science.
+            <h3>Rs:1500/-</h3></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">Introduction to Machine Learning</div>
+        <div class="panel-body"><img src="https://goo.gl/3PGs1o" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Interested in the field of Machine Learning? Then this course is for you!
+                This course has been designed by two professional Data Scientists so that we can share our knowledge and help you learn complex theory, algorithms and coding libraries in a simple way.
+                We will walk you step-by-step into the World of Machine Learning. With every tutorial you will develop new skills and improve your understanding of this challenging yet lucrative sub-field of Data Science.
+            <h3>Rs:1500/-</h3></div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Introduction to Machine Learning</div>
+        <div class="panel-body"><img src="https://goo.gl/3PGs1o" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Interested in the field of Machine Learning? Then this course is for you!
+                This course has been designed by two professional Data Scientists so that we can share our knowledge and help you learn complex theory, algorithms and coding libraries in a simple way.
+                We will walk you step-by-step into the World of Machine Learning. With every tutorial you will develop new skills and improve your understanding of this challenging yet lucrative sub-field of Data Science.
+            <h3>Rs:1500/-</h3></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">Introduction to Machine Learning</div>
+        <div class="panel-body"><img src="https://goo.gl/3PGs1o" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Interested in the field of Machine Learning? Then this course is for you!
+                This course has been designed by two professional Data Scientists so that we can share our knowledge and help you learn complex theory, algorithms and coding libraries in a simple way.
+                We will walk you step-by-step into the World of Machine Learning. With every tutorial you will develop new skills and improve your understanding of this challenging yet lucrative sub-field of Data Science.
+            <h3>Rs:1500/-</h3></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">Introduction to Machine Learning</div>
+        <div class="panel-body"><img src="https://goo.gl/3PGs1o" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Interested in the field of Machine Learning? Then this course is for you!
+                This course has been designed by two professional Data Scientists so that we can share our knowledge and help you learn complex theory, algorithms and coding libraries in a simple way.
+                We will walk you step-by-step into the World of Machine Learning. With every tutorial you will develop new skills and improve your understanding of this challenging yet lucrative sub-field of Data Science.
+            <h3>Rs:1500/-</h3></div>
+      </div>
+    </div>
+  </div>
+</div><br>
+<div class="container">    
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">Introduction to Machine Learning</div>
+              <div class="panel-body"><img src="https://goo.gl/3PGs1o" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">Interested in the field of Machine Learning? Then this course is for you!
+                  This course has been designed by two professional Data Scientists so that we can share our knowledge and help you learn complex theory, algorithms and coding libraries in a simple way.
+                  We will walk you step-by-step into the World of Machine Learning. With every tutorial you will develop new skills and improve your understanding of this challenging yet lucrative sub-field of Data Science.
+              <h3>Rs:1500/-</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4"> 
+            <div class="panel panel-danger">
+              <div class="panel-heading">Introduction to Machine Learning</div>
+              <div class="panel-body"><img src="https://goo.gl/3PGs1o" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">Interested in the field of Machine Learning? Then this course is for you!
+                      This course has been designed by two professional Data Scientists so that we can share our knowledge and help you learn complex theory, algorithms and coding libraries in a simple way.
+                      We will walk you step-by-step into the World of Machine Learning. With every tutorial you will develop new skills and improve your understanding of this challenging yet lucrative sub-field of Data Science.
+                  <h3>Rs:1500/-</h3></div>
+            </div>
+          </div>
+          <div class="col-sm-4"> 
+            <div class="panel panel-success">
+              <div class="panel-heading">Introduction to Machine Learning</div>
+              <div class="panel-body"><img src="https://goo.gl/3PGs1o" class="img-responsive" style="width:100%" alt="Image"></div>
+              <div class="panel-footer">Interested in the field of Machine Learning? Then this course is for you!
+                      This course has been designed by two professional Data Scientists so that we can share our knowledge and help you learn complex theory, algorithms and coding libraries in a simple way.
+                      We will walk you step-by-step into the World of Machine Learning. With every tutorial you will develop new skills and improve your understanding of this challenging yet lucrative sub-field of Data Science.
+                  <h3>Rs:1500/-</h3></div>
+            </div>
+          </div>
+        </div>
+      </div><br><br>
+      
+<p style="text-align:center"><font size="+2">view all</font></p>
+<p style="text-align:center"><font size="+2"><i><u>Trusted By</u></i></font></p>
+<div class="row">
+        <div class="column">
+          <img src="https://goo.gl/13zs5g" alt="Snow" style="width:250px; height:80px;">
+        </div>
+        <div class="column">
+          <img src="https://goo.gl/ZRiFLL" alt="Forest" style="width:250px;height:80px;">
+        </div>
+        <div class="column">
+          <img src="https://goo.gl/QVqD2A" alt="Mountains" style="width:250px;height:80px;">
+        </div>
+        <div class="column">
+                <img src="https://goo.gl/CRnjuV" alt="Snow" style="width:250px; height:80px;">
+              </div>
+      </div> 
+
+
+      <h2 style="text-align:center"><u>Testimonials</u></h2>
+
+<!--
+<div class="card">
+  <img src="https://goo.gl/gTZWvG" alt="John" style="width:100%">
+  <h1>Girish Tulabandu</h1>
+  <p>It helps me a lot to think very creative. I'm really happy to be a part of Guvi.</p>
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+ </div>
+ <p><button>Contact</button></p>
+</div>
+-->
+<div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                    <!-- Carousel Slides / Quotes -->
+                    <div class="carousel-inner text-center">
+                        <!-- Quote 1 -->
+                        <div class="item active">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <p>It's helps me a lot to think very creative to obtain an answer. I'm really very happy to be a part of Guvi!</p>
+                                        <small>Girish Tulabandu</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                         <!-- Bottom Carousel Indicators -->
+                    <ol class="carousel-indicators">
+                            <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://s3.amazonaws.com/uifaces/faces/twitter/mantia/128.jpg" alt="">
+                        </ol>
+    
+    
+<!--
+<footer class="container-fluid text-center">
+  <p>Online Store Copyright</p>  
+  <form class="form-inline">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+</footer>
+-->
+<nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#">About us</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">T&C</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">copyright @2018</a></li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+</body>
+</html>
